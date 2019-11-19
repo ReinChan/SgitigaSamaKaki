@@ -1,0 +1,35 @@
+package Samakaki;
+import java.util.Scanner;
+
+public class samakaki {
+
+
+    public static void main(String[] args) {
+        int a,b,c = 0,d = -1;
+        
+        //Buat objek Scanner untuk nerima input dari keyborad
+        Scanner spectrum = new Scanner (System.in);
+        
+        System.out.print("Masukan Spectrum: ");
+        
+        //Ngambil input dari keyboard lalu dimasukan ke variabel a
+        a = spectrum.nextInt();
+        
+        b = a/2;
+        for (int i=0 ; i<b ; i++){
+          d += 1;
+       
+          for (int j=b ; j>d; j--){
+             System.out.print(".");
+          }
+          c += 2;
+          for (int k=0 ; k<c ; k++){
+             System.out.print("@");
+          }
+          for (int l=b ; l>d; l--){
+             System.out.print(".");
+          }
+          
+          System.out.println(" ");
+        }
+     
