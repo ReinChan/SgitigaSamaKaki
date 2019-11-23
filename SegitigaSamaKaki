@@ -20,14 +20,14 @@ public class samakaki {
           d += 1;
        
           for (int j=b ; j>d; j--){
-             System.out.print(".");
+             System.out.print("0");
           }
           c += 2;
           for (int k=0 ; k<c ; k++){
-             System.out.print("@");
+             System.out.print("1");
           }
           for (int l=b ; l>d; l--){
-             System.out.print(".");
+             System.out.print("0");
           }
           
           System.out.println(" ");
